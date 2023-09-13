@@ -7,9 +7,9 @@ This repository is created to show examples of popular design patters in Java.
     - [X] Factory Method Pattern
     - [ ] Abstract Factory Pattern
     - [X] Singleton Pattern
-    - [ ] Prototype Pattern
+    - [X] Prototype Pattern
     - [X] Builder Pattern
-    - [ ] Object Pool Pattern
+    - [X] Object Pool Pattern
 
 - [ ] **Structural Pattern**
     - [ ] Adapter Pattern

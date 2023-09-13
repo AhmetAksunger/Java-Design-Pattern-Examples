@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Singleton Pattern">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/org/ahmetaksunger/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/org/ahmetaksunger/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/org/ahmetaksunger/Prototype.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Prototype Design Pattern">
+      <change afterPath="$PROJECT_DIR$/object-pool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object-pool/src/main/java/org/ahmetaksunger/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object-pool/src/main/java/org/ahmetaksunger/ObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object-pool/src/main/java/org/ahmetaksunger/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object-pool/src/main/java/org/ahmetaksunger/ProductPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object-pool/src/main/java/org/ahmetaksunger/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
@@ -59,13 +61,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.org.ahmetaksunger.app.App (1)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
-      <module name="prototype" />
+      <module name="builder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ahmetaksunger.*" />
+          <option name="PATTERN" value="org.ahmetaksunger.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,7 +77,20 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
-      <module name="builder" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ahmetaksunger.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.ahmetaksunger.app.App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.app.App" />
+      <module name="object-pool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.ahmetaksunger.app.*" />
@@ -101,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.ahmetaksunger.app.App (1)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.org.ahmetaksunger.app.App" />
         <item itemvalue="Application.App" />
@@ -136,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694542423808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Prototype Design Pattern">
+      <option name="closed" value="true" />
+      <created>1694617178438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694617178438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Builder Pattern" />
     <MESSAGE value="Add Singleton Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Singleton Pattern" />
+    <MESSAGE value="Add Prototype Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Prototype Design Pattern" />
   </component>
 </project>

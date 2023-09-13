@@ -13,6 +13,7 @@
         <module>singleton</module>
         <module>factory</module>
         <module>prototype</module>
+        <module>object-pool</module>
     </modules>
 
     <dependencies>
