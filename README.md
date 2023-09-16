@@ -3,17 +3,15 @@ This repository is created to show examples of popular design patters in Java.
 
 **Design Patterns Checklist:**
 
-- [ ] **Creational Pattern**
+- [X] **Creational Pattern**
     - [X] Factory Method Pattern
-    - [ ] Abstract Factory Pattern
     - [X] Singleton Pattern
     - [X] Prototype Pattern
     - [X] Builder Pattern
     - [X] Object Pool Pattern
 
 - [ ] **Structural Pattern**
-    - [ ] Adapter Pattern
-    - [ ] Bridge Pattern
+    - [X] Bridge Pattern
     - [ ] Composite Pattern
     - [ ] Decorator Pattern
     - [ ] Facade Pattern
