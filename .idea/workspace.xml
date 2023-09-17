@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Object Pool Design Pattern">
-      <change afterPath="$PROJECT_DIR$/bridge/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/AbstractRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/AdvancedRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/ChangeableRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/org/ahmetaksunger/Television.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Bridge Design Pattern">
+      <change afterPath="$PROJECT_DIR$/composite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/EducationalDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/FinancialDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/HeadDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/SalesDepartment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
+      <module name="composite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ahmetaksunger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
       <module name="builder" />
@@ -119,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.org.ahmetaksunger.app.App (1)" />
         <item itemvalue="Application.org.ahmetaksunger.app.App" />
@@ -140,7 +152,8 @@
       <workItem from="1694629068775" duration="1528000" />
       <workItem from="1694646014223" duration="42000" />
       <workItem from="1694899260453" duration="2239000" />
-      <workItem from="1694904780799" duration="1061000" />
+      <workItem from="1694904780799" duration="2040000" />
+      <workItem from="1694912354753" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -166,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694617178438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Bridge Design Pattern">
+      <option name="closed" value="true" />
+      <created>1694906212790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694906212790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +197,7 @@
     <MESSAGE value="Add Builder Pattern" />
     <MESSAGE value="Add Singleton Pattern" />
     <MESSAGE value="Add Prototype Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Prototype Design Pattern" />
+    <MESSAGE value="Add Bridge Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Bridge Design Pattern" />
   </component>
 </project>

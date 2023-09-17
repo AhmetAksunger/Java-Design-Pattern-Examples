@@ -15,6 +15,7 @@
         <module>prototype</module>
         <module>object-pool</module>
         <module>bridge</module>
+        <module>composite</module>
     </modules>
 
     <dependencies>
