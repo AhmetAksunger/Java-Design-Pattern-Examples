@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Bridge Design Pattern">
-      <change afterPath="$PROJECT_DIR$/composite/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/EducationalDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/FinancialDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/HeadDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composite/src/main/java/org/ahmetaksunger/SalesDepartment.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Composite Design Pattern">
+      <change afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeCacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,8 @@
       <workItem from="1694646014223" duration="42000" />
       <workItem from="1694899260453" duration="2239000" />
       <workItem from="1694904780799" duration="2040000" />
-      <workItem from="1694912354753" duration="2099000" />
+      <workItem from="1694912354753" duration="2914000" />
+      <workItem from="1694983679148" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -187,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694906212790</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Composite Design Pattern">
+      <option name="closed" value="true" />
+      <created>1694914816157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694914816157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="Add Singleton Pattern" />
     <MESSAGE value="Add Prototype Design Pattern" />
     <MESSAGE value="Add Bridge Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Bridge Design Pattern" />
+    <MESSAGE value="Add Composite Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Composite Design Pattern" />
   </component>
 </project>
