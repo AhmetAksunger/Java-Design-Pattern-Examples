@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Composite Design Pattern">
-      <change afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/org/ahmetaksunger/YoutubeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/BaseTextDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/BoldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/FooterDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/HeaderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/SimpleText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/org/ahmetaksunger/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +62,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
-      <module name="composite" />
+      <module name="builder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ahmetaksunger.*" />
+          <option name="PATTERN" value="org.ahmetaksunger.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,10 +78,10 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
-      <module name="builder" />
+      <module name="composite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ahmetaksunger.app.*" />
+          <option name="PATTERN" value="org.ahmetaksunger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,6 +201,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Builder Pattern" />

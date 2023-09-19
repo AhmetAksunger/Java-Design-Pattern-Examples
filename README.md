@@ -13,7 +13,7 @@ This repository is created to show examples of popular design patters in Java.
 - [ ] **Structural Pattern**
     - [X] Bridge Pattern
     - [X] Composite Pattern
-    - [ ] Decorator Pattern
+    - [X] Decorator Pattern
     - [ ] Facade Pattern
     - [ ] Flyweight Pattern
     - [X] Proxy Pattern
