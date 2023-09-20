@@ -15,7 +15,7 @@ This repository is created to show examples of popular design patters in Java.
     - [X] Composite Pattern
     - [X] Decorator Pattern
     - [ ] Facade Pattern
-    - [ ] Flyweight Pattern
+    - [X] Flyweight Pattern
     - [X] Proxy Pattern
 
 - [ ] **Behavioral Pattern**
