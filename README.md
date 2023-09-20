@@ -23,7 +23,7 @@ This repository is created to show examples of popular design patters in Java.
     - [ ] Command Pattern
     - [ ] Interpreter Pattern
     - [X] Iterator Pattern
-    - [ ] Mediator Pattern
+    - [X] Mediator Pattern
     - [ ] Memento Pattern
     - [ ] Observer Pattern
     - [ ] State Pattern
