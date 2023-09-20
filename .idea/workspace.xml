@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Facade Design Pattern">
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/BaseAuthHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/RoleCheckerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/UserExistsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/ValidPasswordHandler.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Chain of Responsibility Design Pattern">
+      <change afterPath="$PROJECT_DIR$/iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/org/ahmetaksunger/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/org/ahmetaksunger/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/org/ahmetaksunger/StringCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/src/main/java/org/ahmetaksunger/StringCollectionIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -169,7 +167,7 @@
       <workItem from="1694904780799" duration="2040000" />
       <workItem from="1694912354753" duration="2914000" />
       <workItem from="1694983679148" duration="1966000" />
-      <workItem from="1695222442191" duration="2717000" />
+      <workItem from="1695222442191" duration="4716000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -235,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695172725277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Chain of Responsibility Design Pattern">
+      <option name="closed" value="true" />
+      <created>1695225706284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695225706284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,17 +267,7 @@
     <MESSAGE value="Add Decorator Design Pattern" />
     <MESSAGE value="Add Flyweight Design Pattern" />
     <MESSAGE value="Add Facade Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Facade Design Pattern" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/UserExistsHandler.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add Chain of Responsibility Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Chain of Responsibility Design Pattern" />
   </component>
 </project>

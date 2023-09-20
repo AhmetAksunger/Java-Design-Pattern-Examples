@@ -20,6 +20,7 @@
         <module>decorator</module>
         <module>flyweight</module>
         <module>chainofresponsibility</module>
+        <module>iterator</module>
     </modules>
 
     <dependencies>

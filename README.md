@@ -22,7 +22,7 @@ This repository is created to show examples of popular design patters in Java.
     - [X] Chain of Responsibility
     - [ ] Command Pattern
     - [ ] Interpreter Pattern
-    - [ ] Iterator Pattern
+    - [X] Iterator Pattern
     - [ ] Mediator Pattern
     - [ ] Memento Pattern
     - [ ] Observer Pattern
