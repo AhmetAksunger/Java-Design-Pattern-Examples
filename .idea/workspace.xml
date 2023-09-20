@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Decorator Design Pattern">
-      <change afterPath="$PROJECT_DIR$/flyweight/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/org/ahmetaksunger/MovingParticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/org/ahmetaksunger/MovingParticleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flyweight/src/main/java/org/ahmetaksunger/Particle.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Flyweight Design Pattern">
+      <change afterPath="$PROJECT_DIR$/facade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/AudioFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/BitReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Mp4Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/VideoConverterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/VlcCodec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -30,6 +35,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AhmetAksunger"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4d9e77a7-89de-484c-b0ea-437840dabc87" />
+        <option name="url" value="https://github.com/AhmetAksunger/Java-Design-Pattern-Examples.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
@@ -201,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695165727611</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Flyweight Design Pattern">
+      <option name="closed" value="true" />
+      <created>1695170968321</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695170968321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +252,7 @@
     <MESSAGE value="Add Bridge Design Pattern" />
     <MESSAGE value="Add Composite Design Pattern" />
     <MESSAGE value="Add Decorator Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Decorator Design Pattern" />
+    <MESSAGE value="Add Flyweight Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Flyweight Design Pattern" />
   </component>
 </project>
