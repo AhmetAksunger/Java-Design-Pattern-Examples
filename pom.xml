@@ -19,6 +19,7 @@
         <module>proxy</module>
         <module>decorator</module>
         <module>flyweight</module>
+        <module>chainofresponsibility</module>
     </modules>
 
     <dependencies>

@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Flyweight Design Pattern">
-      <change afterPath="$PROJECT_DIR$/facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/AudioFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/BitReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/CodecFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Mp4Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/VideoConverterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/org/ahmetaksunger/VlcCodec.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Facade Design Pattern">
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/BaseAuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/RoleCheckerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/UserExistsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/ValidPasswordHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +34,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AhmetAksunger"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AhmetAksunger&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -61,23 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ahmetaksunger.App" />
@@ -146,7 +145,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.org.ahmetaksunger.app.App (1)" />
         <item itemvalue="Application.org.ahmetaksunger.app.App" />
@@ -171,6 +169,7 @@
       <workItem from="1694904780799" duration="2040000" />
       <workItem from="1694912354753" duration="2914000" />
       <workItem from="1694983679148" duration="1966000" />
+      <workItem from="1695222442191" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -228,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695170968321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Facade Design Pattern">
+      <option name="closed" value="true" />
+      <created>1695172725277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695172725277</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +260,18 @@
     <MESSAGE value="Add Composite Design Pattern" />
     <MESSAGE value="Add Decorator Design Pattern" />
     <MESSAGE value="Add Flyweight Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Flyweight Design Pattern" />
+    <MESSAGE value="Add Facade Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Facade Design Pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chainofresponsibility/src/main/java/org/ahmetaksunger/UserExistsHandler.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

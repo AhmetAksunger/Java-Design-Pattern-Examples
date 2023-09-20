@@ -10,16 +10,16 @@ This repository is created to show examples of popular design patters in Java.
     - [X] Builder Pattern
     - [X] Object Pool Pattern
 
-- [ ] **Structural Pattern**
+- [X] **Structural Pattern**
     - [X] Bridge Pattern
     - [X] Composite Pattern
     - [X] Decorator Pattern
-    - [ ] Facade Pattern
+    - [X] Facade Pattern
     - [X] Flyweight Pattern
     - [X] Proxy Pattern
 
 - [ ] **Behavioral Pattern**
-    - [ ] Chain of Responsibility
+    - [X] Chain of Responsibility
     - [ ] Command Pattern
     - [ ] Interpreter Pattern
     - [ ] Iterator Pattern
