@@ -24,11 +24,12 @@ This repository is created to show examples of popular design patters in Java.
     - [ ] Interpreter Pattern
     - [X] Iterator Pattern
     - [X] Mediator Pattern
-    - [ ] Memento Pattern
-    - [ ] Observer Pattern
-    - [ ] State Pattern
-    - [ ] Strategy Pattern
-    - [ ] Template Pattern
+    - [X] Memento Pattern
+    - [X] Observer Pattern
+    - [X] State Pattern
+    - [X] Strategy Pattern
+    - [X] Visitor Pattern
+    - [X] Template Method Pattern
 
 **J2EE Patterns**
 

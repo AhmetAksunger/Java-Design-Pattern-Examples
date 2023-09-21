@@ -27,6 +27,7 @@
         <module>state</module>
         <module>strategy</module>
         <module>templatemethod</module>
+        <module>visitor</module>
     </modules>
 
     <dependencies>

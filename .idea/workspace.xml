@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Strategy Design Pattern">
-      <change afterPath="$PROJECT_DIR$/templatemethod/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatemethod/src/main/java/org/ahmetaksunger/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatemethod/src/main/java/org/ahmetaksunger/FileDataProcessor.java" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Template Method Design Pattern">
+      <change afterPath="$PROJECT_DIR$/visitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/InsuranceMailingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -167,6 +173,7 @@
       <workItem from="1695248961500" duration="706000" />
       <workItem from="1695249962339" duration="1836000" />
       <workItem from="1695304740752" duration="3649000" />
+      <workItem from="1695335745808" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -264,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695305818084</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Template Method Design Pattern">
+      <option name="closed" value="true" />
+      <created>1695335892654</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695335892654</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +308,7 @@
     <MESSAGE value="Add Chain of Responsibility Design Pattern" />
     <MESSAGE value="Add Memento Design Pattern" />
     <MESSAGE value="Add Strategy Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Strategy Design Pattern" />
+    <MESSAGE value="Add Template Method Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Template Method Design Pattern" />
   </component>
 </project>
