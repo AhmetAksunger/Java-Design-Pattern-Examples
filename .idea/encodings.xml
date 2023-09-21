@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bridge/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bridge/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bridge/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bridge/untitled/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/builder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/builder/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chainofresponsibility/src/main/java" charset="UTF-8" />
@@ -35,5 +37,7 @@
     <file url="file://$PROJECT_DIR$/singleton/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state/src/main/resources" charset="UTF-8" />
   </component>
 </project>

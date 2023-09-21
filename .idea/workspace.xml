@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Memento Design Pattern">
-      <change afterPath="$PROJECT_DIR$/observer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/org/ahmetaksunger/AtvChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/org/ahmetaksunger/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/org/ahmetaksunger/FoxChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/org/ahmetaksunger/NewsAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/LockedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/OffState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/OnState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/src/main/java/org/ahmetaksunger/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
