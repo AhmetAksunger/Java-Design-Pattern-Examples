@@ -18,10 +18,9 @@ This repository is created to show examples of popular design patters in Java.
     - [X] Flyweight Pattern
     - [X] Proxy Pattern
 
-- [ ] **Behavioral Pattern**
+- [X] **Behavioral Pattern**
     - [X] Chain of Responsibility
-    - [ ] Command Pattern
-    - [ ] Interpreter Pattern
+    - [X] Command Pattern
     - [X] Iterator Pattern
     - [X] Mediator Pattern
     - [X] Memento Pattern

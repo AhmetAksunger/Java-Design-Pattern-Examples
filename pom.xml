@@ -28,6 +28,7 @@
         <module>strategy</module>
         <module>templatemethod</module>
         <module>visitor</module>
+        <module>command</module>
     </modules>
 
     <dependencies>

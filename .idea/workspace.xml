@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Template Method Design Pattern">
-      <change afterPath="$PROJECT_DIR$/visitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/InsuranceMailingVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visitor/src/main/java/org/ahmetaksunger/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="836be743-c1bd-4007-baa9-edb0590f8006" name="Changes" comment="Add Visitor Design Pattern">
+      <change afterPath="$PROJECT_DIR$/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/LivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/org/ahmetaksunger/SwitchLightsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -173,7 +172,9 @@
       <workItem from="1695248961500" duration="706000" />
       <workItem from="1695249962339" duration="1836000" />
       <workItem from="1695304740752" duration="3649000" />
-      <workItem from="1695335745808" duration="1689000" />
+      <workItem from="1695335745808" duration="2686000" />
+      <workItem from="1695384859681" duration="34000" />
+      <workItem from="1695396040571" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -279,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695335892654</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Visitor Design Pattern">
+      <option name="closed" value="true" />
+      <created>1695337932430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695337932430</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +318,7 @@
     <MESSAGE value="Add Memento Design Pattern" />
     <MESSAGE value="Add Strategy Design Pattern" />
     <MESSAGE value="Add Template Method Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Template Method Design Pattern" />
+    <MESSAGE value="Add Visitor Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Visitor Design Pattern" />
   </component>
 </project>
